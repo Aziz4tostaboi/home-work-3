@@ -31,21 +31,24 @@
 //     alert("не в диапазоне")
 // }
 ///----3----///
-// let akk = prompt("Кто там?");
-//
-// if (akk === "Админ") {
-//     let password=prompt("Введите пароль");
-//     if (password === "Я главный") {
-//         alert('Здравствуйте!');
-//     }
-//     else if (password === "" || password === null){
-//         alert('отменено');
-//     }
-// else {
-//         alert("я вас не знаю")
-//     }
-// }
-// else if (akk ==="" || akk=== null){
-//     alert("отменено")
-// }
+let akk = prompt("Кто там?");
+
+if (akk === "Админ") {
+    let password=prompt("Введите пароль");
+    if (password === "Я главный") {
+        alert('Здравствуйте!');
+    }
+    else if (password === "" || password === null){
+        alert('отменено');
+    }
+else {
+        alert("не верный пароль")
+    }
+}
+else if (akk ==="" || akk=== null){
+    alert("отменено")
+}
+else {
+    alert("я ваз не знаю")
+}
 
